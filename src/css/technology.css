@@ -1,0 +1,30 @@
+/* Technologies Page Styles */
+.technologies {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+  }
+  
+  .technologies-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .technologies h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .technology {
+    max-width: 100px;
+    margin: 0 auto;
+  }
+  
+  .technology img {
+    max-width: 100%;
+  }
+  
+  .slick-dots {
+    bottom: 10px;
+  }
+  
