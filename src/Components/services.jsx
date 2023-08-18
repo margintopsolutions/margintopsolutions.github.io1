@@ -32,6 +32,11 @@ const servicesData = [
     description: 'Unlock the potential of your business data with our data analytics services. We help you make informed decisions by collecting, analyzing, and visualizing data from various sources. Gain valuable insights and optimize your strategies for growth.',
     image: 'https://img.freepik.com/free-vector/big-isolated-employee-working-office-workplace-flat-illustration_1150-41780.jpg',
   },
+  {
+    title: 'Low Code development using AI',
+    description: 'we believe this is a new stack of app development. Using AI, we create a quick and self-scalable software depending on the requirements. We believe that by utilizing this technology, our clients will be able to maintain and upgrade their systems on their own.',
+    image: 'https://img.freepik.com/free-vector/hand-drawn-rpa-illustration_23-2149243331.jpg',
+  },
   
 ];
 
