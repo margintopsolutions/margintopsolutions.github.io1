@@ -1,34 +1,115 @@
 /* Navbar Styles */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    padding: 20px;
-  }
-  
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
 
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.menu-toggle {
+  display: none; /* Hide the toggle button by default for larger screens */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 40px;
+  height: 30px;
+  position: relative;
+}
+
+.menu-toggle span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-toggle span:nth-child(1) {
+  top: 0;
+}
+
+.menu-toggle span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-toggle span:nth-child(3) {
+  bottom: 0;
+}
+
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links li a:hover {
+  color: #ff9900;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 1rem;
   }
-  .logo img{
-    height: 50px;
+
+  .menu-toggle {
+    display: block; /* Show the toggle button for mobile */
   }
+
   .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+    display: none; /* Hide regular nav links on smaller screens */
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   }
-  
-  .nav-links li a {
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s ease-in-out;
+
+  .nav-links.active {
+    display: flex; /* Display mobile menu links when active */
   }
-  
-  .nav-links li a:hover {
-    color: #ff9900;
+
+  .nav-links li {
+    margin-bottom: 10px;
   }
-  
+
+  .menu-toggle.active span {
+    background-color: #ff9900; /* Change toggle button color when active */
+  }
+}

@@ -1,63 +1,77 @@
 /* Contact Section Styles */
 .contact {
-    background-color: #f0f0f0;
-    padding: 40px 0;
-  }
-  
+  background-color: #f0f0f0;
+  padding: 40px 0;
+}
+
+.contact-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding and border don't affect width */
+}
+
+.form-group textarea {
+  resize: none;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #e68300;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 1300px) {
   .contact-content {
-    max-width: 800px;
+    max-width: 90%;
     margin: 0 auto;
-    text-align: center;
   }
-  
-  .contact h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .contact p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-    text-align: left;
-  }
-  
-  .form-group label {
-    font-size: 1.1rem;
-    display: block;
-    margin-bottom: 5px;
-  }
-  
+
+  .form-group label,
   .form-group input,
   .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: none;
+    width: 100%; /* Make form elements full width on mobile */
   }
-  
-  .form-group textarea {
-    resize: vertical;
-    resize: none;
-  }
-  
-  .submit-button {
-    padding: 10px 20px;
-    background-color: #ff9900;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .submit-button:hover {
-    background-color: #e68300;
-  }
-  
+
+
+}

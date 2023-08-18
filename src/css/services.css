@@ -56,6 +56,11 @@
   @media (max-width: 768px) {
     .service {
       flex-basis: 100%;
+      margin-bottom: 20px; /* Add some space between services for mobile */
+    }
+    
+    .services-list {
+      justify-content: center; /* Center services in mobile view */
     }
   }
   
