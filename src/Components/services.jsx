@@ -37,6 +37,11 @@ const servicesData = [
     description: 'we believe this is a new stack of app development. Using AI, we create a quick and self-scalable software depending on the requirements. We believe that by utilizing this technology, our clients will be able to maintain and upgrade their systems on their own.',
     image: 'https://img.freepik.com/free-vector/hand-drawn-rpa-illustration_23-2149243331.jpg',
   },
+  {
+    title: 'E-commerce Solutions',
+    description: 'Offer services to set up and customize e-commerce platforms, integrating payment gateways, product catalogs, and inventory management systems.',
+    image: 'https://img.freepik.com/free-vector/maternity-care-products-abstract-concept-vector-illustration-maternity-special-products-healthy-natural-cosmetics-clean-care-goods-pregnant-newborn-skin-treatment-abstract-metaphor_335657-4100.jpg',
+  },
   
 ];
 

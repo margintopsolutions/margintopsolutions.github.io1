@@ -3,8 +3,8 @@ import './App.css';
 import Navbar from './Components/navbar';
 import Hero from './Components/hero';
 import Services from './Components/services';
-import TechnologiesPage from './Components/technology';
-import ContactSection from './Components/contact';
+// import TechnologiesPage from './Components/technology';
+// import ContactSection from './Components/contact';
 import Footer from './Components/footer';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Hero></Hero>
       <Services></Services>
       {/* <TechnologiesPage></TechnologiesPage> */}
-      <ContactSection></ContactSection>
+      {/* <ContactSection></ContactSection> */}
       <Footer></Footer>
     </div>
   );
