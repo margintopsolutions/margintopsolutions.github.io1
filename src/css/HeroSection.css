@@ -137,6 +137,6 @@
     padding-right: 0;
   }
   .hero-right{
-    justify-content: center;
+    display: none;
   }
 }

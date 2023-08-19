@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
         <div className="footer-info">
           <p>Pokhara Nepal</p>
-          <p><FontAwesomeIcon icon={faPhone} /> <a href="tel:+9779845926945">+977-98-45926945</a>| <a href="tel:+9779814148108">+977-98-14148108</a></p>
+          <p><FontAwesomeIcon icon={faPhone} /> <a href="tel:+9779845926945">+977-98-45926945</a> || <a href="tel:+9779814148108">+977-98-14148108</a></p>
           <p><FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:margintopsolutions@gmail.com">margintopsolutions@gmail.com</a></p>
         </div>
         <div className="footer-links">
@@ -22,7 +22,7 @@ const Footer = () => {
             <li><a href="#">Home</a></li>
             <li><a href="#about">About Us</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+        {/* <li><a href="#contact">Contact Us</a></li> */}
           </ul>
         </div>
       </div>

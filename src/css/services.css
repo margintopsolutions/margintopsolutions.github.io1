@@ -20,6 +20,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   column-gap: 40px;
   row-gap: 40px;
+  margin: 0 30px;
 }
 
 .service {
@@ -91,5 +92,14 @@
     grid-template-columns: 1fr;
     width: 70%;
     margin: 0 auto;
+  }
+  .service {
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 500px;
+    /* padding: 30px; */
+
+    transition: transform 0.3s, box-shadow 0.3s;
   }
 }
