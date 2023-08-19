@@ -1,6 +1,9 @@
 import React from 'react';
 import '../css/footer.css';
 import logo from '../Images/image.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {faPhone} from '@fortawesome/free-solid-svg-icons' 
 
 const Footer = () => {
   return (
@@ -10,10 +13,9 @@ const Footer = () => {
           <img src={logo} alt="" srcset="" ></img>
         </div>
         <div className="footer-info">
-          <p>&copy; {new Date().getFullYear()} MarginTop Solutions. All rights reserved.</p>
           <p>Pokhara Nepal</p>
-          <p><a href="tel:+9779845926945">+977-98-45926945</a>| <a href="tel:+9779814148108">+977-98-14148108</a></p>
-          <p><a href="mailto:margintopsolutions@gmail.com">margintopsolutions@gmail.com</a></p>
+          <p><FontAwesomeIcon icon={faPhone} /> <a href="tel:+9779845926945">+977-98-45926945</a>| <a href="tel:+9779814148108">+977-98-14148108</a></p>
+          <p><FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:margintopsolutions@gmail.com">margintopsolutions@gmail.com</a></p>
         </div>
         <div className="footer-links">
           <ul>
@@ -24,6 +26,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <p>&copy; {new Date().getFullYear()} MarginTop Solutions. All rights reserved.</p>
     </footer>
   );
 };
