@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero-content">
         <div className="hero-left">
           <h1 className="hero-title">
-            <span className="highlight">MarginTop</span> Solutions
+            MarginTop Solutions
           </h1>
           <h3 className="hero-subtitle">
             Where Tech Meets Brilliance.

@@ -7,6 +7,7 @@
 .services-content {
   max-width: 1200px;
   margin: 0 auto;
+  font-size: 18px;
 }
 
 .services h2 {
@@ -77,9 +78,9 @@
 }
 
 .service h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #cb741c;
+  color: #ff9900;
 }
 
 .service p {

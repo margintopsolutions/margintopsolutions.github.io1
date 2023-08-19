@@ -8,6 +8,7 @@
   overflow: hidden;
 }
 
+
 .hero-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -99,7 +100,6 @@
   
   .hero-right {
     flex: 1;
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -113,7 +113,7 @@
 }
 .cta-button {
   padding: 10px 20px;
-  background-color: #ff9900; /* Highlight color */
+  background-color: #39c034; /* Highlight color */
   color: #2e2e2e; /* Dark background color */
   border: none;
   border-radius: 5px;
