@@ -2,7 +2,7 @@
 .footer {
   background: linear-gradient(to top, #6b5534, #6b513f);
 
-  color: wheat;
+  color: rgb(170, 196, 54);
   padding: 40px 0;
   text-align: center;
   
@@ -11,17 +11,19 @@
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
+  /* padding: 50px; */
   display: flex;
   flex-wrap: wrap;
   font-size: 1.1rem;
   justify-content: space-between;
-  align-items: center; /* Center align all items */
-  flex-direction: column; /* Change to column layout for smaller screens */
+  align-items: center; 
+  flex-direction: column; 
 }
 
 .footer-logo img {
   max-width: 150px;
   margin-bottom: 0px;
+  opacity: 0.5;
 }
 
 .footer-info,
@@ -31,7 +33,8 @@
 }
 
 .footer-info p a {
-  color: wheat;
+  color: rgb(170, 196, 54);
+  text-decoration: none;
 }
 
 .footer-links ul {
@@ -44,7 +47,7 @@
 }
 
 .footer-links ul li a {
-  color: wheat;
+  color: rgb(170, 196, 54);
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }

@@ -8,7 +8,7 @@ const servicesData = [
     image: 'https://img.freepik.com/free-vector/brain-with-digital-circuit-programmer-with-laptop-machine-learning-artificial-intelligence-digital-brain-artificial-thinking-process-concept-vector-isolated-illustration_335657-2246.jpg?w=2000',
   },
   {
-    title: 'Android and IOS Development',
+    title: 'Android and iOS Development',
     description: 'Custom mobile app development for iOS and Android with cross-platform solutions for diverse business needs',
     image: 'https://img.freepik.com/free-vector/app-development-concept-illustration_114360-5164.jpg?w=2000',
   },
