@@ -20,9 +20,8 @@
 }
 
 .footer-logo img {
-  max-width: 150px;
   margin-bottom: 0px;
-  opacity: 0.5;
+  height: 30px;
 }
 
 .footer-info,
