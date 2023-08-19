@@ -62,7 +62,7 @@
 
 /* Hero Section Styles */
 .hero {
-  background: linear-gradient(to left, #7c4c4c, #25453c);
+  background: linear-gradient(to left, #896d6d, #5a8679);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -127,13 +127,13 @@
 }
 @media screen and (max-width: 767px) {
   .hero-content {
-    align-items: center;
+    align-items: flex-start;
     
   }
   
   .hero-left {
     margin-bottom: 1rem;
-    text-align: center;
+    text-align: left;
     padding-right: 0;
   }
   .hero-right{

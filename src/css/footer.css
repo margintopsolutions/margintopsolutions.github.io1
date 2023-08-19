@@ -1,6 +1,7 @@
 /* Footer Styles */
 .footer {
-  background: linear-gradient(to left, #1f1e3f, #3a3939ad);
+  background: linear-gradient(to top, #6b5534, #6b513f);
+
   color: wheat;
   padding: 40px 0;
   text-align: center;
