@@ -10,7 +10,7 @@ const servicesData = [
   {
     title: 'Android and IOS Development',
     description: 'Custom mobile app development for iOS and Android with cross-platform solutions for diverse business needs',
-    image: 'https://img.freepik.com/free-vector/app-development-illustration_52683-47931.jpg?w=2000',
+    image: 'https://img.freepik.com/free-vector/app-development-concept-illustration_114360-5164.jpg?w=2000',
   },
   {
     title: 'Web Development',
@@ -20,12 +20,12 @@ const servicesData = [
   {
     title: 'UI/UX and Graphics Design',
     description: 'User-centered UI/UX design for apps and websites with graphic design, branding, and visual identity solutions',
-    image: 'https://img.freepik.com/free-vector/flat-design-ui-ux-background_23-2149093996.jpg',
+    image: 'https://img.freepik.com/premium-vector/ui-ux-design-concept-with-people-scene-flat-cartoon-design-woman-illustrator-creates-graphic-elements-places-buttons-working-with-layout-interface-vector-illustration-visual-story-web_9209-9545.jpg?w=2000',
   },
   {
     title: 'Automation and IoT Services',
     description: 'IoT device integration, control, and monitoring with process automation and smart system implementation',
-    image: 'https://img.freepik.com/free-vector/internet-things-iot-smart-connection-control-device-network-industry-resident-anywhere-anytime-anybody-any-business-with-internet-it-technology-futuristic-world_1150-61200.jpg?w=2000',
+    image: 'https://img.freepik.com/premium-vector/iot-automation-concept-man-holds-panel-with-analyzers-indicators-his-hands-good-websites-presentations-trendy-flat-style-vector_174639-57886.jpg?w=2000',
   },
   {
     title: 'Data Analytics and Insights',
@@ -35,15 +35,20 @@ const servicesData = [
   {
     title: 'Low Code development using AI',
     description: 'Rapid AI application development using low-code platforms using AI-driven process enhancements and task automation',
-    image: 'https://img.freepik.com/free-vector/hand-drawn-rpa-illustration_23-2149243331.jpg',
+    image: 'https://img.freepik.com/premium-vector/single-page-application-abstract-concept-vector-illustration_107173-25611.jpg?w=2000',
   },
   {
     title: 'E-commerce Solutions',
     description: 'End-to-end e-commerce platform setup and customization with payment gateway integration and online store optimization',
     image: 'https://img.freepik.com/free-vector/maternity-care-products-abstract-concept-vector-illustration-maternity-special-products-healthy-natural-cosmetics-clean-care-goods-pregnant-newborn-skin-treatment-abstract-metaphor_335657-4100.jpg',
   },
-  
+  {
+    title: 'Custom Software Development',
+    description: 'Tailored software solutions to meet specific business needs, including design, development, and implementation',
+    image: 'https://img.freepik.com/free-vector/new-app-development-desktop_23-2148684987.jpg?w=2000',
+  },
 ];
+
 
 const Services = () => {
   return (
@@ -53,9 +58,14 @@ const Services = () => {
         <div className="services-list">
           {servicesData.map((service, index) => (
             <div key={index} className="service">
-              <img src={service.image} alt={service.title} />
-              <h3>{service.title}</h3>
-              <p>{service.description}</p>
+              <div className="image-container">
+                <img src={service.image} alt={service.title} />
+                <div className="image-overlay"></div>
+              </div>
+              <div className="service-details">
+                <h3>{service.title}</h3>
+                <p>{service.description}</p>
+              </div>
             </div>
           ))}
         </div>
