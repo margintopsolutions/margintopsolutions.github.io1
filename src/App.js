@@ -6,6 +6,7 @@ import Services from './Components/services';
 // import TechnologiesPage from './Components/technology';
 // import ContactSection from './Components/contact';
 import Footer from './Components/footer';
+import Freelancing from './Components/freelancing';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services></Services>
       {/* <TechnologiesPage></TechnologiesPage> */}
       {/* <ContactSection></ContactSection> */}
+      <Freelancing></Freelancing>
       <Footer></Footer>
     </div>
   );
