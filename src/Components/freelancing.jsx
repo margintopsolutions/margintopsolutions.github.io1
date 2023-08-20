@@ -31,7 +31,7 @@ function Freelancing() {
           <div className="freelancing-card freelancer">
             <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/FL_LOGO-REDUCTION.png" alt="Freelancer" />
             <h3>Freelancer</h3>
-            <p>Your vision, my creation.</p>
+            <p>Crafting Your Ideas, One Project at a Time.</p>
           </div>
         </a>
       </div>

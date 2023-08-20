@@ -91,7 +91,10 @@
     font-size: 1rem;
 
   }
-
+  .logo img {
+    max-width: 70%;
+  
+  }
   .menu-toggle {
     display: block; /* Show the toggle button for mobile */
   }

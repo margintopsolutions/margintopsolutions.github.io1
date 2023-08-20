@@ -72,4 +72,9 @@
     text-align: left;
   }
 
+  .footer-logo img {
+    /* margin-bottom: 0px; */
+    max-width: 70%;
+    height: auto;
+  }
 }
