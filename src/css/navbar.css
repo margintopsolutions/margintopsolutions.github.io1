@@ -3,9 +3,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  color: white;
-  padding: 20px;
+  background-color: transparent;
+  color: black;
+  padding: 20px 80px;
 }
 
 .logo {
@@ -14,7 +14,7 @@
 }
 
 .logo img {
-  height: 50px;
+  height: 20px;
 
 }
 
@@ -34,7 +34,6 @@
   position: absolute;
   height: 4px;
   width: 100%;
-  background-color: white;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -71,7 +70,7 @@
 
 .nav-links li a {
   text-decoration: none;
-  color: white;
+  color: black;
   transition: color 0.3s ease-in-out;
 }
 
