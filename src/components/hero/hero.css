@@ -72,3 +72,21 @@
     margin-top: 10px;
 
 }
+
+@media screen and (max-width: 767px) {
+    .hero-content img{
+        display: none;
+    }
+    .hero-content {
+        align-items: flex-start;
+        /* border: 1px solid rebeccapurple; */
+        padding:80px 20px;
+      }
+    
+      .hero-content .hero-left {
+        flex: 1;
+        width: 100%;
+        padding: 5px;
+        gap:10px;
+      }
+  }

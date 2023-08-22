@@ -10,7 +10,7 @@ function Freelancing() {
           <div className="freelancing-card upwork">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Upwork-logo.svg/2560px-Upwork-logo.svg.png" alt="Upwork" />
             <h3>Upwork</h3>
-            <p>Your project, my expertise.</p>
+            <p>Your project, our expertise.</p>
           </div>
         </a>
         <a href="https://www.fiverr.com/margintopsoln" target="_blank" rel="noopener noreferrer">

@@ -10,7 +10,7 @@ import {AiOutlineShoppingCart} from 'react-icons/ai'
 import {SiBmcsoftware} from 'react-icons/si'
 import './services.css'
 
-
+  
 
 const servicesData = [
   {
@@ -65,7 +65,7 @@ const Services = () => {
   return (
     <section id='services' className="services">
       <div className="services-content">
-        <div className='title'><h2>Our Services</h2><p>Explore solutions to your details with us</p></div>
+        <div className='title'><h2>Our Services</h2><p>Empowering Your Journey with Innovation</p></div>
         <div className="services-list">
           {servicesData.map((service, index) => (
             <div key={index} className="service">

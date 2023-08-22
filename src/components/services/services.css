@@ -79,3 +79,29 @@
 
 
 }
+@media screen and (max-width: 767px) {
+    .services-list {
+      grid-template-columns: 1fr;
+      width: 100%;
+
+      margin: 0 auto;
+      /* gap:40px; */
+    }
+    .services{
+        width: 100%;
+        padding:10px 10px;
+    }
+    .services-content{
+        width: 100%;
+
+    }
+    .service {
+      position: relative;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding:10px 10px;
+      width:90%;
+
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+  }
