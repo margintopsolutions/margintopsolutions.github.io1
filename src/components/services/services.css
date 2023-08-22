@@ -79,6 +79,7 @@
 
 
 }
+
 @media screen and (max-width: 767px) {
     .services-list {
       grid-template-columns: 1fr;

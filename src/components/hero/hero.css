@@ -69,10 +69,15 @@
     border-radius: 5px;
     font-weight: 500;
     letter-spacing: 0.02em;
+    cursor: pointer;
     margin-top: 10px;
 
 }
 
+  
+.hero-content .hero-left button:hover {
+    background-color: rgba(5, 125, 37, 0.581); /* Slightly darker highlight color */
+  }
 @media screen and (max-width: 767px) {
     .hero-content img{
         display: none;

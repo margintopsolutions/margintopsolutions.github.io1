@@ -20,7 +20,7 @@ const Hero = () => {
           <p className="hero-description">
             Welcome to a realm where <span className="highlight">innovation</span> meets <span className="highlight">expertise</span>. At <span className="highlight">MarginTop Solutions</span>, we craft success stories through <b>innovative tech solutions</b> .
           </p>
-          <div className='button'><button className="cta-button">Explore Excellence</button></div>
+          <div className='button'> <a href="#services"><button className="cta-button">Explore Excellence</button></a> </div>
         </div>
         <div className="hero-right">
           <img src={heroImage} alt="MarginTop Solutions" className="hero-image" />

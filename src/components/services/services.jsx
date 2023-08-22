@@ -16,47 +16,47 @@ const servicesData = [
   {
     title: 'Machine Learning and Data Science',
     description: 'Machine learning model development and deployment with Data analysis, feature engineering, and predictive modeling',
-    image: <BiNetworkChart/>,
+    image: <BiNetworkChart color="green" size={40}/>,
   },
   {
     title: 'Android and iOS Development',
     description: 'Custom mobile app development for iOS and Android with cross-platform solutions for diverse business needs',
-    image: <FaMobile/>,
+    image: <FaMobile color="green" size={40}/>,
   },
   {
     title: 'Web Development',
     description: 'Responsive website design and development like E-commerce, portfolio, and informational site creation',
-    image: <CgWebsite/>,
+    image: <CgWebsite color="green" size={40}/>,
   },
   {
     title: 'UI/UX and Graphics Design',
     description: 'User-centered UI/UX design for apps and websites with graphic design, branding, and visual identity solutions',
-    image: <MdDesignServices/>,
+    image: <MdDesignServices color="green" size={40}/>,
   },
   {
     title: 'Automation and IoT Services',
     description: 'IoT device integration, control, and monitoring with process automation and smart system implementation',
-    image: <GiChariot/>,
+    image: <GiChariot color="green" size={40}/>,
   },
   {
     title: 'Data Analytics and Insights',
     description: 'Data collection, processing, and visualization with insightful dashboards and interactive data reports',
-    image: <BsDatabaseCheck/>,
+    image: <BsDatabaseCheck color="green" size={40}/>,
   },
   {
     title: 'Low Code development using AI',
     description: 'Rapid AI application development using low-code platforms using AI-driven process enhancements and task automation',
-    image: <GiArtificialHive/>,
+    image: <GiArtificialHive color="green" size={40}/>,
   },
   {
     title: 'E-commerce Solutions',
     description: 'End-to-end e-commerce platform setup and customization with payment gateway integration and online store optimization',
-    image: <AiOutlineShoppingCart/>,
+    image: <AiOutlineShoppingCart color="green" size={40}/>,
   },
   {
     title: 'Custom Software Development',
     description: 'Tailored software solutions to meet specific business needs, including design, development, and implementation',
-    image: <SiBmcsoftware/>,
+    image: <SiBmcsoftware size={40} color="green"/>,
   },
 ];
 
